@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 #used to convert a collection of text documents to a vector of term/token counts.
@@ -6,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 df = pd.read_csv(r"C:\STUDY\ala\dataset.csv")
 print('done')
-
+print("hi")
 # DATA PROCESSING: replacing NaN values with empty string....
 
 features = ['keywords', 'cast', 'genres', 'director']
